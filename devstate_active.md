@@ -1,6 +1,7 @@
 # Projektstatus: Aktiv
 
 **Entscheidungsdatum:** 2026-03-14
+**Letzte Aktualisierung:** 2026-03-14
 
 ## Zusammenfassung der Analyse
 
@@ -20,6 +21,10 @@ Spring-Boot-Beispielanwendung zur Verwaltung hierarchischer Produktstrukturen (I
 - Minimale Testabdeckung (nur HelloController)
 - Java 17 JDK auf Entwicklungssystem nicht vorhanden
 
+**Entscheidungen:**
+- Tiefergehende Architekturanalyse auf Klassen-/Dateiebene: **nicht benötigt**
+- Test-Framework: **JUnit 5 mit Spring Boot Test** wird beibehalten
+
 ## Abgeschlossene Schritte
 
 - [x] Grundanalyse durchgeführt (siehe `docs/ANALYSIS.md`)
@@ -27,6 +32,7 @@ Spring-Boot-Beispielanwendung zur Verwaltung hierarchischer Produktstrukturen (I
 - [x] Zeilenenden normalisiert (CRLF → LF)
 - [x] mvnw für Linux lauffähig gemacht
 - [x] README.md aktualisiert, damit sie die tatsächliche Funktionalität beschreibt
+- [x] Zweite Analyse-Session: Bestätigung der Ergebnisse, keine neuen Befunde
 
 ## Aktuell geplante nächste Schritte
 

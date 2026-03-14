@@ -1,5 +1,7 @@
 # Projektanalyse: spring-item
 
+*Erstellt: 2026-03-14 | Letzte Aktualisierung: 2026-03-14*
+
 ## 2.1 Projektzweck
 
 Dieses Projekt ist eine **Spring-Boot-Beispielanwendung zur Darstellung von Produktstrukturen** ("Beispielanwendung mit dem Springframework zur Darstellung von Produktstrukturen"). Es basiert auf dem offiziellen Spring Boot Getting Started Guide und erweitert diesen um eine Artikelverwaltung.
