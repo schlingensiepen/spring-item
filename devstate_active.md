@@ -20,6 +20,14 @@ Spring-Boot-Beispielanwendung zur Verwaltung hierarchischer Produktstrukturen (I
 - Minimale Testabdeckung (nur HelloController)
 - Java 17 JDK auf Entwicklungssystem nicht vorhanden
 
+## Abgeschlossene Schritte
+
+- [x] Grundanalyse durchgeführt (siehe `docs/ANALYSIS.md`)
+- [x] Test-Setup dokumentiert (siehe `docs/Test-Setup.md`)
+- [x] Zeilenenden normalisiert (CRLF → LF)
+- [x] mvnw für Linux lauffähig gemacht
+- [x] README.md aktualisiert, damit sie die tatsächliche Funktionalität beschreibt
+
 ## Aktuell geplante nächste Schritte
 
 - [ ] Java 17 JDK installieren, damit Tests ausgeführt werden können
@@ -29,4 +37,3 @@ Spring-Boot-Beispielanwendung zur Verwaltung hierarchischer Produktstrukturen (I
 - [ ] ItemController: Manuelle Bean-Abfrage durch `@Autowired` ersetzen
 - [ ] AppStore: Mutable Collection nicht direkt zurückgeben
 - [ ] Testabdeckung erweitern (ItemRestController, ItemController, Domain-Modell)
-- [ ] README.md aktualisieren, damit sie die tatsächliche Funktionalität beschreibt
